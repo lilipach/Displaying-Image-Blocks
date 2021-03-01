@@ -1,0 +1,48 @@
+body{
+    background-color: #d5d2ae;
+}
+
+.header{
+    display: flex;
+    background-color: pink;
+    justify-content: center;
+    padding: 20px;
+}
+
+.header h1{
+    font-size: 35px;
+    font-weight: bold;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+}
+
+.header img{
+    height: 80px;
+    width: 160px;
+}
+
+.content img{
+    height: 20%;
+    width: 80%;
+    border: solid black 5px;
+    padding: 10px;
+    margin: 5px
+}
+
+.content .odd img{
+    background-color: #82b4ee;
+}
+
+.content .even img{
+    background-color: #f36870;
+}
+
+
+.content{
+    padding: 15px;
+    display: flex;
+}
+
+
+
+
